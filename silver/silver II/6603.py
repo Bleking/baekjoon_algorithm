@@ -1,4 +1,4 @@
-# 백준 6603번 로 실버 2
+# 백준 6603번 로또 실버 2
 
 import sys
 from itertools import combinations
