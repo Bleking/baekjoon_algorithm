@@ -1,4 +1,5 @@
-# 백준 16953번 	A → B 실버 2
+# 백준 16953번 A → B 실버 2 (BFS 미사용)
+
 import sys
 
 A, B = map(int, sys.stdin.readline().split())
