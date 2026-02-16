@@ -23,13 +23,10 @@ while pl <= pr:
       total = money[i]
       cnt += 1
 
-  if cnt < M:
+  if cnt <= M:
     answer = pc
     pr = pc - 1
   elif cnt > M:
     pl = pc + 1
-  elif cnt == M:
-    answer = pc
-    pr = pc - 1
 
 print(answer)
